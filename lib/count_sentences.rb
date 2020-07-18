@@ -1,9 +1,10 @@
 require 'pry'
 
 class String
+  
 
   def sentence?
-    self.sentence?
+    self
 
   end
 
