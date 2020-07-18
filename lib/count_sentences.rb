@@ -1,10 +1,11 @@
 require 'pry'
 
 class String
-  
+
 
   def sentence?
-    self
+    self.end_with?(.)
+    binding.pry
 
   end
 
