@@ -5,8 +5,7 @@ class String
 
   def sentence?
     self.end_with?(".")
-    binding.pry
-
+    
   end
 
   def question?
